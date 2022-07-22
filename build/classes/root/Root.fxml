@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane minHeight="400.0" minWidth="400.0" prefHeight="501.0" prefWidth="838.0" style="-fx-background-color: #245551;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="root.RootController">
+   <children>
+      <TextArea fx:id="textArea" layoutX="8.0" layoutY="14.0" prefHeight="158.0" prefWidth="352.0" promptText="Ingrese su script en este espacio :)" style="-fx-border-color: #381030; -fx-border-width: 5;" />
+      <Text fx:id="text1" fill="WHITE" layoutX="14.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="85.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="text2" fill="WHITE" layoutX="165.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="93.33333333333348">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="button" layoutX="374.0" layoutY="25.0" mnemonicParsing="false" onMouseClicked="#buttonOnMouseClicked" prefHeight="32.0" prefWidth="85.0" style="-fx-background-color: black; -fx-font-size: 13;" text="Comprobar" textFill="#fffdfd" />
+      <TextArea fx:id="textArea1" layoutX="472.0" layoutY="14.0" prefHeight="158.0" prefWidth="352.0" promptText="Ingrese su script en este espacio :)" style="-fx-border-color: #381030; -fx-border-width: 5;" />
+      <Pane fx:id="fondo" layoutX="5.0" layoutY="237.0" prefHeight="260.0" prefWidth="832.0" />
+      <Text fx:id="text11" fill="WHITE" layoutX="498.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="85.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="text21" fill="WHITE" layoutX="649.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="93.33333333333348">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button layoutX="378.0" layoutY="93.0" mnemonicParsing="false" onMouseClicked="#limpiar" prefHeight="32.0" prefWidth="85.0" style="-fx-background-color: black; -fx-font-size: 13;" text="Limpiar" textFill="WHITE" />
+      <Label fx:id="mensaje" layoutX="222.0" layoutY="215.0" prefHeight="25.0" prefWidth="435.0" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
